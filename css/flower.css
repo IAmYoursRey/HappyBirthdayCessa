@@ -879,8 +879,7 @@ body.is-reading-letter::before {
 
 .envelope-wrapper.is-opened .envelope {
   animation: none !important; 
-  transform: translateY(0) rotate(0deg) !important; 
-  transition: transform 0.5s ease-out; 
+  transform: none;
 }
 
 .envelope-wrapper.is-opened:not(.is-readable) .paper-page:nth-child(n+2) {
